@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  grafana:
+    image: grafana/grafana-oss
+    container_name: grafana_dev
+    ports:
+      - 3000:3000
+    volumes:
+      - ./docker_data/provisioning/:/etc/grafana/provisioning/
+    environment:
+      - GF_INSTALL_PLUGINS=vertamedia-clickhouse-datasource
+      - AUTH=${AUTH}
+    restart: always

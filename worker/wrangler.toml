@@ -1,0 +1,9 @@
+name = "analytics"
+main = "src/index.ts"
+compatibility_date = "2022-08-23"
+
+
+[[unsafe.bindings]]
+type = "analytics_engine"
+name = "ANALYTICS"
+dataset = "USERS"
