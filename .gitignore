@@ -169,6 +169,3 @@ dist
 # wrangler project
 
 .dev.vars
-
-# Docker data
-docker_data/
