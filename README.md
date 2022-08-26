@@ -23,7 +23,7 @@ AUTH=Bearer [API-KEY HERE]
 1. Open the URL of the deployed worker in multiple browsers/curl
 2. `cd` into `grafana` directory
 3. Run `docker-compose up -d`
-4. Open `localhost:3000` in your browsler
+4. Open `localhost:3000` in your browser
 5. Log in with user `admin` and pw `admin`
 6. Go to dashboards
 7. Open pre-configured dashboard and select relevant timeframe (e.g. last 15 minutes)
