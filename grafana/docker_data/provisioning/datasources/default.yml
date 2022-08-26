@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: Cloudflare AE
+    type: vertamedia-clickhouse-datasource
+    uid: cf_ae
+    access: proxy
+    url: $CF_API_ENDPOINT
+    basicAuth: false
+    isDefault: true
+    jsonData:
+      httpHeaderName1: "Authorization"
+    secureJsonData:
+      httpHeaderValue1: $AUTH
+    version: 1

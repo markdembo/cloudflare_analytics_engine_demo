@@ -11,4 +11,5 @@ services:
     environment:
       - GF_INSTALL_PLUGINS=vertamedia-clickhouse-datasource
       - AUTH=${AUTH}
+      - CF_API_ENDPOINT=${CF_API_ENDPOINT}
     restart: always
