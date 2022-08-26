@@ -20,9 +20,9 @@ AUTH=Bearer [API-KEY HERE]
 
 # Testing
 
-1. Open the URL of the deployed in multiple browsers/curl
+1. Open the URL of the deployed worker in multiple browsers/curl
 2. `cd` into `grafana` directory
-3. Run `docker-compose up -d``
+3. Run `docker-compose up -d`
 4. Open `localhost:3000` in your browsler
 5. Log in with user `admin` and pw `admin`
 6. Go to dashboards
